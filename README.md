@@ -1,5 +1,4 @@
-# Neact-Native
-neact-native学习日记
+# Neact-Native学习之路
 
 ## 1.搭建开发环境（mac）
 ### Homebrew安装
@@ -50,9 +49,35 @@ Android Studio包含了运行和测试React Native应用所需的Android SDK和�
 
 ![](https://github.com/huo108/Neact-Native/blob/master/imgs/android-sdk-build-tools.png)
 
-在SDK Tools窗口中，选择Show Package Details，然后在Android SDK Build Tools中勾选Android SDK Build-Tools 23.0.1。（必须是这个版本）
+- 在SDK Tools窗口中，选择Show Package Details，然后在Android SDK Build Tools中勾选Android SDK Build-Tools 23.0.1。（必须是这个版本）
 
 ![](https://github.com/huo108/Neact-Native/blob/master/imgs/android-sdk-platforms.png)
+
+- 需要在本地创建模拟器（至少有一个6.0以上版本）
+
+![](https://github.com/huo108/Neact-Native/blob/master/imgs/virtual_devices.png)
+
+- ANDROID_HOME环境变量
+
+配置android sdk到～/.bash_profile文件中
+
+    export ANDROID_HOME=~/Library/Android/sdk   //添加到～/.bash_profile文件中
+    export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools //添加到～/.bash_profile文件中 android sdk的tools添加到path变量中
+
+    source ~/.bash_profile  //运行完才能生效
+    echo $ANDROID_HOME //检查是否生效
+
+### 初始化第一个Neact-Native 项目
+
+    react-native init firstNativeProject
+
+    cd firstNativeProject
+
+    react-native run-android
+  
+
+   
+
 
 
 
