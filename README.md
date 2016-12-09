@@ -48,7 +48,7 @@ Android Studio包含了运行和测试React Native应用所需的Android SDK和�
 
 - 选择<font color="blue">Custom</font>
 
-![选择Custom](/Users/cncn/Downloads/react-native-android-studio-custom-install.png)
+![选择Custom](https://github.com/huo108/Neact-Native/blob/master/imgs/custom.png)
 
 
 
