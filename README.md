@@ -46,7 +46,7 @@ Android Studio包含了运行和测试React Native应用所需的Android SDK和�
 
 安装过程中有一些需要改动的选项：
 
-- 选择Custom
+- ![选择Custom](http://reactnative.cn/static/docs/0.27/img/react-native-android-studio-custom-install.png)
 
 
 
