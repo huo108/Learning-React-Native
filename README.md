@@ -44,11 +44,15 @@ React Native的命令行工具用于执行创建、初始化、更新项目、�
 
 Android Studio包含了运行和测试React Native应用所需的Android SDK和模拟器。
 
-安装过程中有一些需要改动的选项：
+安装完成后下载必须的SDK：
 
-- 选择<font color="blue">Custom</font>
+- 在SDK Platforms窗口中，选择Show Package Details，然后在Android 6.0 (Marshmallow)中勾选Google APIs、Intel x86 Atom System Image、Intel x86 Atom_64 System Image以及Google APIs Intel x86 Atom_64 System Image。
 
-![选择Custom](https://github.com/huo108/Neact-Native/blob/master/imgs/custom.png)
+![](https://github.com/huo108/Neact-Native/blob/master/imgs/android-sdk-build-tools.png)
+
+在SDK Tools窗口中，选择Show Package Details，然后在Android SDK Build Tools中勾选Android SDK Build-Tools 23.0.1。（必须是这个版本）
+
+![](https://github.com/huo108/Neact-Native/blob/master/imgs/android-sdk-platforms.png)
 
 
 
