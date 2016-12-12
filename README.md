@@ -1,11 +1,13 @@
 # Neact-Native学习之路
 
 ## 目录
-1.[搭建开发环境](#-搭建开发环境)
+1.[搭建开发环境](#1-搭建开发环境)
 
+ - 1.1 [Homebrew安装](#1.1-Homebrew安装)
+ - 1.6 [第一个Neact-Native 项目](#1.6-第一个Neact-Native 项目)
 
 ## 1.搭建开发环境（mac）
-### Homebrew安装
+### 1.1 Homebrew安装
    在终端或iterm2运行：
 
      /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -16,7 +18,7 @@
     sudo chown -R `whoami` /usr/local
  
  
- ### Node（4.0以上版本）
+ ### 1.2 Node（4.0以上版本）
 
     brew install node
 
@@ -26,7 +28,7 @@
 
     npm config set disturl https://npm.taobao.org/dist --global
 
-### React Native的命令行工具（react-native-cli）
+### 1.3 React Native的命令行工具（react-native-cli）
 
 React Native的命令行工具用于执行创建、初始化、更新项目、运行打包服务（packager）等任务。
 
@@ -36,14 +38,14 @@ React Native的命令行工具用于执行创建、初始化、更新项目、�
 
     sudo chown -R `whoami` /usr/local
 
-### JDK(1.8以上版本)
+### 1.4 JDK(1.8以上版本)
 
 [下载地址](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 安装完后运行
 
     javac -version 检查是否安装成功！
 
-### Android Studio(2.0以上版本)
+### 1.5 Android Studio(2.0以上版本)
 
 Android Studio包含了运行和测试React Native应用所需的Android SDK和模拟器。
 
@@ -71,7 +73,7 @@ Android Studio包含了运行和测试React Native应用所需的Android SDK和�
     source ~/.bash_profile  //运行完才能生效
     echo $ANDROID_HOME //检查是否生效
 
-### 初始化第一个Neact-Native 项目
+### 1.6 初始化第一个Neact-Native 项目
 
     react-native init firstNativeProject
 
