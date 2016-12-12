@@ -83,7 +83,7 @@ Android Studio包含了运行和测试React Native应用所需的Android SDK和�
     source ~/.bash_profile  //运行完才能生效
     echo $ANDROID_HOME //检查是否生效
 
-### 1.6 <span id="16">初始化第一个Neact-Native项目</span>
+### <span id="16">1.6 初始化第一个Neact-Native项目</span>
 
     react-native init firstNativeProject
 
