@@ -5,7 +5,7 @@
 
  - 1.1 [Homebrew安装](#11-Homebrew安装)
 
-- 1.2 [Node](#12-Node)
+- 1.2 [Node(4.0以上版本](#12-Node(4.0以上版本))
 
 - 1.3 [ReactNative的命令行工具](#13-ReactNative的命令行工具)
 
@@ -28,7 +28,7 @@
     sudo chown -R `whoami` /usr/local
  
  
- ### 1.2 Node（4.0以上版本）
+ ### 1.2 Node(4.0以上版本
 
     brew install node
 
@@ -83,7 +83,7 @@ Android Studio包含了运行和测试React Native应用所需的Android SDK和�
     source ~/.bash_profile  //运行完才能生效
     echo $ANDROID_HOME //检查是否生效
 
-### 1.6 <span id="16">初始化第一个Neact-Native 项目</span>
+### 1.6 <span id="16">初始化第一个Neact-Native项目</span>
 
     react-native init firstNativeProject
 
