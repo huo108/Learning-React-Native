@@ -16,7 +16,7 @@
 - 1.6 [第一个Neact-Native](#16-初始化第一个Neact-Native项目)
 
 
-## 1.搭建开发环境(mac)
+## 1. 搭建开发环境(mac)
 ### 1.1 Homebrew安装
    在终端或iterm2运行：
 
@@ -83,7 +83,7 @@ Android Studio包含了运行和测试React Native应用所需的Android SDK和�
     source ~/.bash_profile  //运行完才能生效
     echo $ANDROID_HOME //检查是否生效
 
-### 1.6 初始化第一个Neact-Native 项目
+### 1.6 <span id="16">初始化第一个Neact-Native 项目</span>
 
     react-native init firstNativeProject
 
