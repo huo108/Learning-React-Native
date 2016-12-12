@@ -5,7 +5,7 @@
 
  - 1.1 [Homebrew安装](#11-Homebrew安装)
 
-- 1.6 [第一个Neact-Native](#16-第一个Neact-Native)
+- 1.6 [第一个Neact-Native](#16-初始化第一个Neact-Native 项目)
 
 
 ## 1.搭建开发环境（mac）
