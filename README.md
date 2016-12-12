@@ -13,7 +13,7 @@
 
 - 1.5 [Android-Studio](#15-Android-Studio)
 
-- 1.6 [第一个Neact-Native](#16-初始化第一个Neact-Native项目)
+- 1.6 [第一个Neact-Native](#16)
 
 
 ## 1. 搭建开发环境(mac)
