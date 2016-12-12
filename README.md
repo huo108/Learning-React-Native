@@ -5,11 +5,11 @@
 
  - 1.1 [Homebrew安装](#11-Homebrew安装)
 
-- 1.2 [Node(4.0以上版本](#12-Node(4.0以上版本))
+- 1.2 [Node4.0以上版本](#12-Node4.0以上版本)
 
 - 1.3 [ReactNative的命令行工具](#13-ReactNative的命令行工具)
 
-- 1.4 [JDK](#14-JDK)
+- 1.4 [JDK1.8以上版本](#14-JDK1.8以上版本)
 
 - 1.5 [Android-Studio](#15-Android-Studio)
 
@@ -28,7 +28,7 @@
     sudo chown -R `whoami` /usr/local
  
  
- ### 1.2 Node(4.0以上版本
+ ### 1.2 Node4.0以上版本
 
     brew install node
 
@@ -48,7 +48,7 @@ React Native的命令行工具用于执行创建、初始化、更新项目、�
 
     sudo chown -R `whoami` /usr/local
 
-### 1.4 JDK(1.8以上版本)
+### 1.4 JDK1.8以上版本
 
 [下载地址](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 安装完后运行
